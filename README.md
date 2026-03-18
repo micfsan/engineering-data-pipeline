@@ -24,6 +24,11 @@ O projeto segue os princípios de Orientação a Objetos e Injeção de Dependê
 * **Spark**: 3.x.
 
 ## 4. Como Executar
+   0. **Preparação dos Dados**: 
+   Certifique-se de que os arquivos extraídos dos repositórios oficiais (`dataset-json-pagamentos` e `datasets-csv-pedidos`) estão alocados nas pastas:
+   * `data/pedidos/` (arquivos CSV)
+   * `data/pagamentos/` (arquivos JSON)
+
    1. Instale as dependências:
       ```bash
       pip install -r requirements.txt

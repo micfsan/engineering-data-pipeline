@@ -7,7 +7,7 @@ class DataIO:
 
     def ler_pedidos(self):
         # O Spark varre a pasta e lê todos os CSVs de uma vez
-        return self.spark.read.json("data/pedidos/", schema=pedidos_schema)
+        return self.spark.read.csv("data/pedidos/", schema=pedidos_schema, header=True)
 
     def ler_pagamentos(self):
         # O Spark varre a pasta e lê todos os JSONs de uma vez
