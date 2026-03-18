@@ -24,20 +24,21 @@ O projeto segue os princípios de Orientação a Objetos e Injeção de Dependê
 * **Spark**: 3.x.
 
 ## 4. Como Executar
-1. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-Configure o JAVA_HOME (caso necessário no macOS):
+   1. Instale as dependências:
+      ```bash
+      pip install -r requirements.txt
 
-Bash
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)
-Execute o pipeline principal:
+   2. Configure o JAVA_HOME (caso necessário no macOS):
+      ```bash
+      export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
-Bash
-python main.py
+   3. Execute o pipeline principal:
+      ```bash
+      python main.py
+      ```
 
 ## 5. Como rodar os Testes
 Para validar a lógica de negócio, execute:
-
-Bash
-pytest tests/test_logic.py
+   ```bash
+   pytest tests/test_logic.py
+   ```
