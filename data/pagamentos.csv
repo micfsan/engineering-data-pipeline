@@ -1,4 +1,0 @@
-id_pedido,forma_pagamento,valor_pagamento,status,fraude
-1,cartao,100.0,false,false
-2,boleto,200.0,false,false
-3,pix,150.0,true,false
