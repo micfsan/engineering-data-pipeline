@@ -38,7 +38,7 @@ O projeto segue os princípios de Orientação a Objetos e Injeção de Dependê
       ```
 
 ## 5. Como rodar os Testes
-Para validar a lógica de negócio, execute:
-   ```bash
-   pytest tests/test_logic.py
-   ```
+   Para validar a lógica de negócio, execute:
+      ```bash
+      pytest tests/test_logic.py
+      ```
