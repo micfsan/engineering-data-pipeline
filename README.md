@@ -1,4 +1,4 @@
-# Engineering Data Pipeline - MBA FIAP
+# Data Engineering Programming - MBA FIAP
 
 Este projeto consiste em um pipeline de dados desenvolvido em **PySpark** para o processamento de grandes volumes de pedidos e pagamentos. O objetivo principal é filtrar transações legítimas com pagamentos recusados para análise da gestão.
 
